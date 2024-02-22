@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec su pgbouncer -c 'exec /usr/bin/pgbouncer /conf/pgbouncer.conf'
